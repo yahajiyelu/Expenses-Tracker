@@ -1,0 +1,72 @@
+.months-container{
+    width: 100%;
+    padding: 20px;
+    height: 90vh;
+    overflow: auto;
+    background-color: rgb(23, 29, 35);
+}
+@media screen and (max-width:768px) {
+    .months-container{
+        padding: 10px;
+    }
+}
+
+.header-container{
+    background-color: rgb(254, 254, 254);
+}
+
+
+.text-center{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.table-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+@media screen and (max-width:912px) {
+    .table-container{
+        flex-direction: column;
+        overflow: auto;
+        border: 1px solid #4f4f4f;
+    }
+}
+
+/* .invalid-box{
+    background-color: brown;
+} */
+
+@media (max-width: 768px) {
+    .mobile-date-field {
+      width: 50%; /* Adjust the width as per your preference */
+    }
+  }
+
+
+  .empty-container{
+    height: 58vh;
+    overflow: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #fff; */
+  }
+
+  .img-fluid{
+    width: 30%;
+  }
+@media screen and (max-width:768px) {
+    .img-fluid{
+        width: 60%;
+    }
+}
